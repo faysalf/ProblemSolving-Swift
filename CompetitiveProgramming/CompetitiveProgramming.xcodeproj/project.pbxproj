@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		71B2A1A62B0E776400CFD450 /* 14. Longest Common Prefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2A1A52B0E776400CFD450 /* 14. Longest Common Prefix.swift */; };
+		71B2A1A92B0FBD8B00CFD450 /* 1630. Arithmetic Subarrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B2A1A82B0FBD8B00CFD450 /* 1630. Arithmetic Subarrays.swift */; };
 		71F6B8002AEED5D300AD2DAE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6B7FF2AEED5D300AD2DAE /* main.swift */; };
 		71F6B8072AEED69A00AD2DAE /* 9. Pallindrome Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F6B8062AEED69A00AD2DAE /* 9. Pallindrome Number.swift */; };
 		71F9677D2B03DFE8006F0485 /* Add two numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F9677C2B03DFE8006F0485 /* Add two numbers.swift */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		71B2A1A52B0E776400CFD450 /* 14. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14. Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		71B2A1A82B0FBD8B00CFD450 /* 1630. Arithmetic Subarrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1630. Arithmetic Subarrays.swift"; sourceTree = "<group>"; };
 		71F6B7FC2AEED5D300AD2DAE /* CompetitiveProgramming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CompetitiveProgramming; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F6B7FF2AEED5D300AD2DAE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		71F6B8062AEED69A00AD2DAE /* 9. Pallindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. Pallindrome Number.swift"; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 			path = Random;
 			sourceTree = "<group>";
 		};
+		71B2A1A72B0FBD6B00CFD450 /* SubArray */ = {
+			isa = PBXGroup;
+			children = (
+				71B2A1A82B0FBD8B00CFD450 /* 1630. Arithmetic Subarrays.swift */,
+			);
+			path = SubArray;
+			sourceTree = "<group>";
+		};
 		71F6B7F32AEED5D300AD2DAE = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 		71F6B7FE2AEED5D300AD2DAE /* CompetitiveProgramming */ = {
 			isa = PBXGroup;
 			children = (
+				71B2A1A72B0FBD6B00CFD450 /* SubArray */,
 				71B2A1A42B0E774A00CFD450 /* Random */,
 				71F9677E2B03EE15006F0485 /* String */,
 				71F6B7FF2AEED5D300AD2DAE /* main.swift */,
@@ -160,6 +171,7 @@
 				71F6B8072AEED69A00AD2DAE /* 9. Pallindrome Number.swift in Sources */,
 				71F967802B03EE20006F0485 /*  13. Roman to Integer.swift in Sources */,
 				71B2A1A62B0E776400CFD450 /* 14. Longest Common Prefix.swift in Sources */,
+				71B2A1A92B0FBD8B00CFD450 /* 1630. Arithmetic Subarrays.swift in Sources */,
 				71F9677D2B03DFE8006F0485 /* Add two numbers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
