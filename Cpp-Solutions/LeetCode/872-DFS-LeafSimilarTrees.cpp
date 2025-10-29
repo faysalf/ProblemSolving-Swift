@@ -12,18 +12,20 @@ using namespace std;
 
 class Solution {
     public:
-       vector<int> leaf1;
+        vector<int> leaf1;
+        bool result = true;
 
         void dfs(TreeNode* root, bool isFirst) {
             if (!root) { return; }
             
-            if (!(root->left && root->right) {
+            if (!(root->left || root->right)) {
                 if (isFirst) {
                     leaf1.push_back(root->val);
                 }
                 else {
                     int current = leaf1.front();
-                    if (current != root->val) {
+                    if (!current || current != root->val) {
+                        result = false;
                         return;
                     }
                     leaf1.erase(leaf1.begin());
@@ -44,10 +46,8 @@ class Solution {
             dfs(root1, true);
             dfs(root2, false);
         
-            if (leaf1.empty()) {
-                return true;
-            }
-            return false;
+            return (result && leaf1.empty());
 
         };
+
 };
